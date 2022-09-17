@@ -31,6 +31,9 @@
     <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
     <None Remove="Interfaces\" />
     <None Remove="Migrations\" />
+    <None Remove="Utilities\" />
+    <None Remove="Utilities\Functions\" />
+    <None Remove="Utilities\StoredProcedures\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -39,5 +42,8 @@
     <Folder Include="Repo\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Utilities\Functions\" />
+    <Folder Include="Utilities\StoredProcedures\" />
   </ItemGroup>
 </Project>
